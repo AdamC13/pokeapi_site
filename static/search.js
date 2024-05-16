@@ -169,8 +169,8 @@ async function displayShow(show) {
                     <img src="${show.sprites["front_default"]}" style="width: 400px; alt="${show.name}">
                         <div>
                             <h1>${show.name}</h1>
-                            <p>abilities: ${show.abilities[0]["ability"]["name"]} or ${show.abilities[1]["ability"]["name"]}</p>
-                            <p>Base Stat Total: ${show}</p>
+                            <p>ability: ${show.abilities[0]["ability"]["name"]}
+                            <p>Base Attack: ${show.stats[1]['base_stat']}</p>
                         <div>
                 </div>`
                 
